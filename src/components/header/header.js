@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MenuIcon from '../menu/menu-icon';
 import Menu from '../menu/menu';
 import Popup from "reactjs-popup";
+import './header.css'
 
 class Header extends Component {
 
@@ -14,7 +15,7 @@ class Header extends Component {
 		  };
 		return (
 			<header>
-				<h1>Atila Rangel</h1>
+				<h1 className='title-header'>atila</h1>
 				<Popup
 					modal
 					overlayStyle={{ background: "#da4453" }}

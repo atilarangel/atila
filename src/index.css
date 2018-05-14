@@ -9,6 +9,9 @@ body{
     -moz-animation: Animation 9s ease infinite;
     animation: Animation 9s ease infinite;
 }
+p{
+    color: white;
+}
 a:link 
 { 
 text-decoration:none; 

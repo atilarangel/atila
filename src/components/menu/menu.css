@@ -45,7 +45,6 @@
   width: 100%;
   display: block;
   text-align: center;
-
   top: 0px;
   padding: 0px;
 }
@@ -61,6 +60,9 @@
   margin: 10px 0px;
   padding: 0;
   cursor: pointer;
+}
+li:hover{
+  font-style: italic;
 }
 a{
     color: #333;
