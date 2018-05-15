@@ -5,14 +5,14 @@ class Box extends Component{
     render(){
         return(
             <div className="box" >
-            
-                <div className="box-title">
-                    <p className="activator">{this.props.item.title}</p>
+                <a href={this.props.item.link} target='_blank'>
+                    <img className='image' src = {require("./../../assets/portfolio/"+this.props.item.img)}/>
+                <div className="overlay">
+                    <div className="text">{this.props.item.title}</div>
+                        <p className="text">{this.props.item.year}</p>
+                    
                 </div>
-                <div className="box-content">
-                    <p className="card-year">{this.props.item.year}</p>
-                </div>
-                <img src = {this.props.item.img} />
+                </a>
             </div>
             
         );
