@@ -13,7 +13,7 @@ class Routes extends Component {
       return (
         <HashRouter>
             <Switch> 
-              <Route path="/about" component={About} />
+              <Route exact path="/" component={About} />
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/contact" component={Contact} />
               <Route component={NotFound} />

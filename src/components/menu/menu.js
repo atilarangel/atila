@@ -6,7 +6,7 @@ export default ({ close }) => (
     <div className="menu" onClick={close}>
       <ul>
         <li>
-          <Link to="/about" className="button">
+          <Link to="/" className="button">
             Sobre
           </Link>
         </li>
